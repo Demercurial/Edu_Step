@@ -10,7 +10,8 @@ def is_password_good(password):
             elif i.isupper():
                 flag3 = True
 
-    return (flag1 and flag2 and flag3 and flag4)
+    return flag1 and flag2 and flag3 and flag4
+
 
 txt = list(input())
 print(is_password_good(txt))

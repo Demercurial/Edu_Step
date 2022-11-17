@@ -13,5 +13,5 @@ def is_password_good(password):
     return flag1 and flag2 and flag3 and flag4
 
 
-txt = list(input())
+txt = list(input())  # Ввод пароля
 print(is_password_good(txt))
